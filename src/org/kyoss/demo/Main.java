@@ -14,6 +14,8 @@ public class Main extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		// Set the UI to display the layout defined in layout/main.xml
 		setContentView(R.layout.main);
 
 		// Retrieve a reference to the KYOSS logo from the layout which is defined in layout/main.xml
