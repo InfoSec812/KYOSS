@@ -5,4 +5,5 @@
     android:layout_height="fill_parent"
     >
     <ImageView android:layout_height="wrap_content" android:src="@drawable/kyoss" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_width="fill_parent" android:id="@+id/kyossLogo"></ImageView>
+    <Button android:layout_width="wrap_content" android:id="@+id/newActivityButton" android:text="@string/new_activity_button_label" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:visibility="visible" android:layout_height="wrap_content"></Button>
 </RelativeLayout>

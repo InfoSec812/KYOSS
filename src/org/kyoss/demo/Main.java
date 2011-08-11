@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class Main extends Activity {
@@ -20,6 +21,32 @@ public class Main extends Activity {
 
 		// Retrieve a reference to the KYOSS logo from the layout which is defined in layout/main.xml
 		ImageView kyossLogo = (ImageView)findViewById(R.id.kyossLogo) ;
+
+		// Retrieve a reference to the "Start Another Activity" button defined in the layout/main.xml
+		Button activityButton = (Button)findViewById(R.id.newActivityButton) ;
+
+		// Add an onClick event listener to the button
+		activityButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// This method is called when the user clicks on the "Start Another Activity" button.
+				// To start another Activity which we wrote, we will create a new Intent
+				// The new intent is saying that within this application (getApplicationContext) we would
+				// like to start the Activity described in the class ExampleActivity
+				Intent newActivityIntent = new Intent(getApplicationContext(), ExampleActivity.class) ;
+
+				// We can also send data to the new activity by using what are referred to as "Extras"
+				newActivityIntent.putExtra("source", "Started from Main!") ;
+				newActivityIntent.putExtra("anIntValue", 5) ;
+				newActivityIntent.putExtra("aLongValue", 60L) ;
+				newActivityIntent.putExtra("aBooleanValue", true) ;
+
+				// Once the Intent is configured, we can simply start that activity
+				Main.this.startActivity(newActivityIntent) ;
+				// Starting the new activity will cause the onPause() method of this activity to be called
+			}
+		}) ;
 
 		// Add an onClick() listener to the logo image
 		kyossLogo.setOnClickListener(new View.OnClickListener() {

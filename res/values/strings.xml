@@ -14,4 +14,6 @@
     <string name="logo_click_dialog_message">You clicked on the KYOSS logo, would you like to open the KYOSS web site in the browser?</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
+    <string name="new_activity_button_label">Start Another Activity</string>
+    <string name="new_activity_title">Our New Activity!!</string>
 </resources>

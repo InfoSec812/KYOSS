@@ -15,10 +15,14 @@ public final class R {
         public static final int kyoss=0x7f020001;
     }
     public static final class id {
-        public static final int kyossLogo=0x7f060000;
+        public static final int kyossLogo=0x7f060002;
+        public static final int newActivityButton=0x7f060003;
+        public static final int newActivityLayout=0x7f060000;
+        public static final int textView1=0x7f060001;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int another_layout=0x7f030000;
+        public static final int main=0x7f030001;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
@@ -34,6 +38,8 @@ public final class R {
         public static final int dns_preferences_category=0x7f050001;
         public static final int logo_click_dialog_message=0x7f05000b;
         public static final int logo_click_dialog_title=0x7f05000a;
+        public static final int new_activity_button_label=0x7f05000e;
+        public static final int new_activity_title=0x7f05000f;
         public static final int ok=0x7f05000c;
     }
     public static final class xml {
