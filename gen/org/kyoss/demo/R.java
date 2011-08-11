@@ -12,12 +12,31 @@ public final class R {
     }
     public static final class drawable {
         public static final int icon=0x7f020000;
+        public static final int kyoss=0x7f020001;
+    }
+    public static final class id {
+        public static final int kyossLogo=0x7f060000;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class string {
-        public static final int app_name=0x7f040001;
-        public static final int hello=0x7f040000;
+        public static final int app_name=0x7f050000;
+        public static final int cancel=0x7f05000d;
+        public static final int config_color_category=0x7f050006;
+        public static final int config_color_dialog_message=0x7f050008;
+        public static final int config_color_dialog_positive=0x7f050009;
+        public static final int config_color_dialog_title=0x7f050007;
+        public static final int dns_config_tcp_off=0x7f050004;
+        public static final int dns_config_tcp_on=0x7f050003;
+        public static final int dns_config_tcp_summary=0x7f050005;
+        public static final int dns_config_use_tcp=0x7f050002;
+        public static final int dns_preferences_category=0x7f050001;
+        public static final int logo_click_dialog_message=0x7f05000b;
+        public static final int logo_click_dialog_title=0x7f05000a;
+        public static final int ok=0x7f05000c;
+    }
+    public static final class xml {
+        public static final int preferences=0x7f040000;
     }
 }

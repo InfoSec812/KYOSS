@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/dns_preferences_category">
+        <CheckBoxPreference android:title="@string/dns_config_use_tcp" android:summaryOff="@string/dns_config_tcp_off" android:summaryOn="@string/dns_config_tcp_on" android:summary="@string/dns_config_tcp_summary" android:key="useTcp"></CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/config_color_category">
+        <EditTextPreference android:dialogIcon="@android:drawable/ic_menu_edit" android:dialogTitle="@string/config_color_dialog_title" android:dialogMessage="@string/config_color_dialog_message" android:positiveButtonText="@string/config_color_dialog_positive"></EditTextPreference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

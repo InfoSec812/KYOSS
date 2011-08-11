@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Main!</string>
     <string name="app_name">KYOSS</string>
+    <string name="dns_preferences_category">DNS Preferences</string>
+    <string name="dns_config_use_tcp">Use TCP?</string>
+    <string name="dns_config_tcp_on">Perform DNS queries via TCP</string>
+    <string name="dns_config_tcp_off">Perform DNS queries using UDP</string>
+    <string name="dns_config_tcp_summary">Configure the application to query via either TCP or UDP</string>
+    <string name="config_color_category">Color Configuration</string>
+    <string name="config_color_dialog_title">Background Color</string>
+    <string name="config_color_dialog_message">Enter a color in #AARRGGBB where A=Alpha, R=Red, G=Green, and B=Blue</string>
+    <string name="config_color_dialog_positive">Save</string>
+    <string name="logo_click_dialog_title">You clicked on the KYOSS Logo!</string>
+    <string name="logo_click_dialog_message">You clicked on the KYOSS logo, would you like to open the KYOSS web site in the browser?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
 </resources>
